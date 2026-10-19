@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Environment and secrets
+.env
+.env.*
+.dev.vars
+.dev.vars.*
+!.env.example
+
+# Cloudflare local cache
+.wrangler/
+
+# Sensitive database exports & user inserts
+user.sql
+backup*.sql
+*.sql.bak
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS & Editor metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

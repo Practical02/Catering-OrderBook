@@ -1,0 +1,12 @@
+name = "order-book"
+main = "src/worker.js"
+compatibility_date = "2025-01-01"
+
+[assets]
+directory = "./public"
+run_worker_first = ["/api/*"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "order-book"
+database_id = "bfeb3f5b-a23d-4a84-ad9f-60d236a2e63c"
